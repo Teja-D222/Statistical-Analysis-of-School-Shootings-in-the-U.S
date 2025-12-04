@@ -74,9 +74,13 @@ Result: parsimonious, interpretable predictor sets across all models.
 
 ## Models Implemented
 Model	Technique	Outcome Predicted
+
 #1	Poisson Regression	Victim count (injuries + fatalities)
+
 #2	Logistic Regression	Probability of in-class incident
+
 #3	Logistic Regression	Likelihood of gang-related event
+
 #4	Logistic Regression	Probability of high-casualty attack
 
 ## Key Insights (Evidence-Based Outcomes)
