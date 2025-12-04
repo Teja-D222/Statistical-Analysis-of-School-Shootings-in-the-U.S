@@ -102,8 +102,11 @@ Adult perpetrators
 
 ## Policy Recommendations
 Prioritize morning class-time protections
+
 Increase perimeter monitoring to prevent drive-bys
+
 Expand gang-prevention strategies in high-risk districts
+
 Monitor access to high-capacity firearms for at-risk groups
 
 
