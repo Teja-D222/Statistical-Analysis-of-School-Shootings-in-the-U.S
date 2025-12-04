@@ -9,12 +9,16 @@ U.S. school shootings continue to climb, with 327 incidents in the 2021–22 sch
 ## Data & Tools
 
 Dataset:	K-12 School Shooting Database (merged Incident + Shooter + Victim + Weapon files)
+
 Cleaned Observations:	718
+
 Engineered Features:	27
+
 Tools:	R, GLM (Poisson & Logistic Regression), ggplot2, dplyr
 
 ## Variable Selection Strategy
 We applied a purposeful, domain-driven selection approach to ensure the models captured behavioral, situational, and contextual drivers of severity — not just highly correlated noise.
+
 Variables were selected based on:
 
 Policy relevance (e.g., location type, relationship to school)
@@ -45,11 +49,17 @@ This ensured interpretability and maintained policy applicability of results.
 
 ## Feature Engineering
 To improve predictive power:
+
 Binned incident duration from timestamps
+
 Consolidated minor categories into informative groups
+
 Created shooter age groups and affiliation indicators
+
 Added legal context using a state gun-law scoring system
+
 Conducted VIF testing to eliminate multicollinearity
+
 These steps produced a more generalizable and stable model.
 
 ## Feature Selection
